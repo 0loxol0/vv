@@ -86,9 +86,9 @@ def tod():
 
 # LOGO LO GOBLOK
 logo =  ''' \033[0;96m  __  ___     ____  _   ___  ____
-\033[0;96m  /  |/  /_ __/ / /_(_) / _ )/ __/\033[0;97m|| Created By \033[0;93mAang-XD
-\033[0;96m / /|_/ / // / / __/ / / _  / _/  \033[0;97m|| Youtube \033[0;93mAang-XD
-\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/\033[0;93mv3.1\033[0;97m|| Facebook \033[0;93mSaya Aang'''
+\033[0;96m  /  |/  /_ __/ / /_(_) / _ )/ __/\033[0;97m|| Created By \033[0;93mAhmed XD
+\033[0;96m / /|_/ / // / / __/ / / _  / _/  \033[0;97m|| Youtube \033[0;93mAhmed-XD
+\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/\033[0;93mv3.1\033[0;97m|| Facebook \033[0;93mAhmed Alzwage'''
 
 lo_ngentod = '1714009362122228'
 #Crack selesai sayang hehe
@@ -152,8 +152,8 @@ def moch_yayan():
     print '\033[0;96m╠══[\033[0;97m NAMA KAMU : %s'%(nama);time.sleep(0.04)
     print '\033[0;96m╠══[\033[0;97m IP KAMU   : %s'%(IP);time.sleep(0.04)
     print '%s╠════════════════════════════════════════════════════════%s'%(O,N)
-    print '%s╠══[%s Author  : \033[0;93mAang Ardiansyah-XD'%(O,N);time.sleep(0.04)
-    print '%s╠══[%s Github  : \033[0;93mGithub.com/AngCyber'%(O,N);time.sleep(0.04)
+    print '%s╠══[%s Author  : \033[0;93mAhmed Alzwage -XD'%(O,N);time.sleep(0.04)
+    print '%s╠══[%s Github  : \033[0;93mGithub.com/AhmedAlzwage'%(O,N);time.sleep(0.04)
     print '%s╠══[%s Team    : \033[0;93mXNX-CODE TEAM'%(O,N); time.sleep(0.04)
     print '%s╠════════════════════════════════════════════════════════%s'%(O,N)
     print '%s╠══[1]%s \033[0;93mDump id \033[0;97mdari teman \033[0;96m[5000 ID]'%(O,N);time.sleep(0.04)
@@ -712,9 +712,9 @@ class __crack__:
                     print '%s║%s '%(O,N)
                     print '\033[0;96m╠══[ \033[0;97mSilahkan Pilih Metode Crack \033[0;96m]'
                     print '%s║%s '%(O,N)
-                    print '%s╠══[1]%s Metode \033[0;93mB-Api \033[0;97mV1 \033[0;96m[Cepat Ibarat Minato]'%(O,N)
+                    print '%s╠══[1]%s Metode \033[0;93mB-Api \033[0;97mV1 \033[0;96m[💔]'%(O,N)
                     print '%s╠══[2]%s Metode \033[0;93mB-Api \033[0;97mV2'%(O,N)
-                    print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[Lambat Ibarat Kura²]'%(O,N)
+                    print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[💔²]'%(O,N)
                     print '%s╠══[4]%s Metode \033[0;93mMbasic \033[0;97mV2'%(O,N)
                     print '%s╠══[5]%s Metode \033[0;93mMobile Fb \033[0;96m[Sangat Lambat Ibarat Chat Mantan]'%(O,N) 
                     print '%s║%s '%(O,N)
