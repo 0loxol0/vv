@@ -84,7 +84,7 @@ def masuk():
         if romz in(""):
         	print ("%s%s isi token kentod "%(M,til))
     	try:
-            nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
+            nama = requests.get('https://graph.facebook.com/v13.0/me?access_token=%s'%(romz)).json()['name']
             print ('\n%s%s Login succes, mohon tunggu '%(H,til));jeda(2)
             open('data/token.txt', 'w').write(romz);login_xx()
             exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
@@ -183,11 +183,11 @@ def publik(romz,headers=header):
     	print ("\n%s%s %sKetik '%sme%s' jika ingin dump daftar teman sendiri "%(U,til,O,H,O))
         idt = raw_input('%s%s %sTarget id%s > %s'%(U,til,O,M,K))
         #simpan = raw_input('%s%s%s Nama file%s > %s'%(U,til,O,M,K))
-        gas = requests.get('https://graph.facebook.com/%s?access_token=%s'%(idt,romz))
+        gas = requests.get('https://graph.facebook.com/v13.0/%s?access_token=%s'%(idt,romz))
         nm = json.loads(gas.text)
         file = ('dump/'+nm['first_name']+'.json').replace(' ', '_')
         bff = open(file, 'w')
-        r = requests.get('https://graph.facebook.com/%s?fields=friends.limit(5001)&access_token=%s'%(idt,romz))
+        r = requests.get('https://graph.facebook.com/v13.0/%s?fields=friends.limit(5001)&access_token=%s'%(idt,romz))
         z = json.loads(r.text)
         for a in z['friends']['data']:
             id.append(a['id'] + '<=>' + a['name'])
